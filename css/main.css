@@ -147,6 +147,7 @@ address {
   width: 10%;
   height: 0;
   border-top: solid 1px #7a7a7a;
+  margin-bottom: 20px;
 }
 
 .clear-button {
@@ -424,6 +425,22 @@ h1 {
     max-width: 640px;
     margin: 100px 0;
   }
+
+  /*Expertise Area Styles*/
+
+  .expertise .expertise-items article {
+    width: 49%;
+  }
+
+  .expertise .expertise-items .left {
+    border-right: solid 1px #ccc;
+  }
+
+  .expertise .expertise-items .bottom-left {
+    border-bottom: 0;
+    border-right: solid 1px #ccc;
+  }
+  
 }
 
 @media only screen and (min-width: 1200px) {
