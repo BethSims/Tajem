@@ -151,7 +151,7 @@ address {
 }
 
 .clear-button {
-  padding: 5px 15px;
+  padding: 0 15px;
   margin: 20px 0 50px 0;
   border: solid 1px #00e0d0;
   color: #00e0d0;
@@ -241,7 +241,7 @@ h1 {
   text-align: center;
 }
 
-/*About Area Styles*/
+/*About Section Styles*/
 
 .about {
   display: flex;
@@ -280,7 +280,7 @@ h1 {
   text-align: center;
 }
 
-/*Expertise Area Styles*/
+/*Expertise Section Styles*/
 
 .expertise {
   display: flex;
@@ -327,6 +327,169 @@ h1 {
   color: #413d4b;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+/*Teams Section Styles*/
+
+.teams {
+  background-color: #2d1a59;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.teams h2 {
+  color: #fff;
+  width: 90%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.teams .teams-description {
+  font-family: 'Source Serif Pro', serif;
+  margin-top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.team-pictures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.teams .team-pictures .staff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 75%;
+  border: solid 1px #fff;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.teams .team-pictures .staff img {
+  min-height: 275px;
+  background-color: #fff;
+  width: 100%;
+  margin: 0;
+}
+
+.teams .team-pictures .staff .name {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.teams .team-pictures .staff .title {
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.teams .teams-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.teams .teams-footer p {
+  width: 100%;
+  text-align: center;
+}
+
+/*Works Section Styles*/
+
+.works {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.works .works-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.works .works-header h2 {
+  width: 100%;
+}
+
+.works .works-header a {
+  color: #413d4b;
+}
+
+.works .works-items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.works .works-items figure {
+  width: 50%;
+  margin: 0;
+  min-height: 200px;
+}
+
+.works .works-items .work1 {
+  background-color: #b6b6b6;
+}
+
+.works .works-items .work2 {
+  background-color: #acacac;
+}
+
+.works .works-items .work3 {
+  background-color: #a1a1a1;
+}
+
+.works .works-items .work4 {
+  background-color: #8a8a8a;
+}
+
+/*Reviews Section Styles*/
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #2d1a59;
+  color: #fff;
+}
+
+.reviews .fontawesome-icon {
+  font-size: 2em;
+}
+
+.reviews .review-content {
+  font-family: 'Source Serif Pro', serif;
+  text-align: center;
+}
+
+.reviews .name,
+.reviews .title {
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.reviews .name {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.reviews .title {
+  margin-top: 5px;
 }
 
 /* ==========================================================================
