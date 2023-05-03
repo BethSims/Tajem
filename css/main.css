@@ -215,6 +215,8 @@ header nav ul li {
   margin: 0 5px;
 }
 
+
+
 /*Hero Area Styles*/
 
 .hero-area {
@@ -506,7 +508,7 @@ h1 {
 
 .contact .contact-form input[type=text],
 .contact .contact-form input[type=email],
-.contact .contact-form input[type=textarea] {
+.contact .contact-form textarea {
   width: 90%;
   padding: 10px 20px;
   margin-top: 20px;
@@ -514,8 +516,9 @@ h1 {
   box-sizing: border-box;
 }
 
-.contact .contact-form input[name=message] {
-  min-height: 250px;
+.contact .contact-form textarea {
+  resize: none;
+  height: 250px;
 }
 
 .contact .contact-form input[type=button] {
@@ -526,19 +529,26 @@ h1 {
 .contact .clients {
   width: 90%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
 }
 
 .contact .clients h2 {
-  display: flex;
-  justify-self: flex-start;
+  width: 100%;
 }
+
+/*.contact .clients figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+}*/
 
 .contact .clients .client-logo img {
   width: 125px;
-  height: 75px;
 }
 
 /* ==========================================================================
