@@ -175,7 +175,11 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+header {
   background-color: #2d1a59;
+  opacity: .8;
 }
 
 header .content-wrapper {
@@ -200,7 +204,6 @@ footer nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
-  font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -218,7 +221,8 @@ footer nav ul a {
   color: #fff;
 }
 
-header nav ul li {
+header nav ul li,
+footer nave ul li {
   font-size: .75em;
   line-height: 1.75;
   margin: 0 5px;
@@ -226,6 +230,18 @@ header nav ul li {
 
 footer {
   color: #fff;
+  background: url(../img/laptop-coffee-cup-near-notebook-table.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.footer-background {
+  background-color: #2d1a59;
+  opacity: .8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 footer .legal-verbiage,
@@ -305,12 +321,18 @@ footer .stay-in-touch .socials .social-icons a {
 
 /*Hero Area Styles*/
 
+.hero-background {
+  background: url(../img/evergreen-forest.jpg) no-repeat;
+  background-size: cover;
+}
+
 .hero-area {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   background-color: #2d1a59;
+  opacity: .8;
 }
 
 h1 {
@@ -344,10 +366,21 @@ h1 {
   width: 100%;
 }
 
+.video-background {
+  background-color: #2d1a59;
+  opacity: .8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
 .about-video {
   height: 600px;
   width: 100%;
-  background-color: #2d1a59;
+  background: url(../img/city-skyline.jpg) no-repeat center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -359,6 +392,10 @@ h1 {
   color: #000;
   width: 100%;
   text-align: center;
+}
+
+.about-video a {
+  color: #000;
 }
 
 /*Expertise Section Styles*/
@@ -412,8 +449,18 @@ h1 {
 
 /*Teams Section Styles*/
 
-.teams {
+.teams-background {
   background-color: #2d1a59;
+  opacity: .8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teams {
+  background: url(../img/foggy-forest.jpg) no-repeat center;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -540,12 +587,19 @@ h1 {
 /*Reviews Section Styles*/
 
 .reviews {
+  background: url(../img/forest-skyline.jpg) no-repeat center;
+  background-size: cover;
+  color: #fff;
+}
+
+
+.reviews-background {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   background-color: #2d1a59;
-  color: #fff;
+  opacity: .8;
 }
 
 .reviews .fontawesome-icon {
