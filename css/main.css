@@ -133,11 +133,19 @@ h4 {
 
 p {
   font-size: .875em;
-  line-height: 1.125em;
+  line-height: 1.25em;
 }
 
 address {
   font-style: normal;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
 }
 
 .content-wrapper {
@@ -180,13 +188,6 @@ footer {
 header {
   background-color: #2d1a59;
   opacity: .8;
-}
-
-header .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
 }
 
 header figure {
@@ -340,6 +341,7 @@ h1 {
   font-size: 2.5em;
   text-align: center;
   color: #fff;
+  width: 100%;
 }
 
 #hero {
@@ -502,7 +504,6 @@ h1 {
 .teams .team-pictures .staff img {
   min-height: 275px;
   background-color: #fff;
-  width: 100%;
   margin: 0;
 }
 
@@ -671,17 +672,9 @@ h1 {
   width: 100%;
 }
 
-/*.contact .clients figure {
-  width: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-
-}*/
-
-.contact .clients .client-logo img {
-  width: 125px;
+.contact .clients figure {
+  width: 51%;
+  margin: 20px 0;
 }
 
 
@@ -784,6 +777,23 @@ h1 {
     margin: 100px 0;
   }
 
+  .section-divider {
+    width: 8%;
+  }
+
+  /* About Area Styles */
+
+  .about figure {
+    width: 30%;
+    margin-right: 20px;
+  }
+
+  .about .about-content {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
   /*Expertise Area Styles*/
 
   .expertise .expertise-items article {
@@ -798,6 +808,94 @@ h1 {
     border-bottom: 0;
     border-right: solid 1px #ccc;
   }
+
+  /*Teams Area Styles*/
+
+.teams .team-pictures .staff {
+  width: 43%;
+  margin: 20px;
+}
+
+/*Works Area Styles*/
+
+.works .works-header {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.works .works-header h2 {
+  width: 50%;
+}
+
+.works .works-items figure {
+  width: 33.333%;
+}
+
+/*Contact Area Styles*/
+ 
+.contact .content-wrapper {
+  align-items: flex-start;
+}
+
+.contact .contact-form {
+  width: 45%;
+}
+
+.contact .clients {
+  width: 50%;
+}
+
+.contact .clients figure {
+  width: 40%;
+}
+
+/*Footer Styles Here*/
+
+footer {
+  font-size: .75em;
+}
+
+footer h4 {
+  font-size: 1.125em;
+  margin-top: 0;
+}
+
+footer .content-wrapper {
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+footer .legal-verbiage,
+footer .contact-info,
+footer .stay-in-touch {
+  justify-content: flex-start;
+}
+
+footer .legal-verbiage {
+  width: 22%;
+}
+
+footer .contact-info,
+footer .stay-in-touch {
+  width: 36%;
+}
+
+footer .legal-verbiage figure {
+  width: 50%;
+}
+
+footer .footer-nav {
+  width: 90%;
+  max-width: 640px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer nav {
+  justify-content: flex-start;
+  width: 40%;
+}
+
 
 }
 
